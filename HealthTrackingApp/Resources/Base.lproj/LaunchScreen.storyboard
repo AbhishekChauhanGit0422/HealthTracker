@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3mo-lD-Ex7">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="qae-8N-KW3">
+            <objects>
+                <viewController id="3mo-lD-Ex7" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1YX-AV-J4b">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cyH-m0-41s">
+                                <rect key="frame" x="-11" y="0.0" width="414" height="852"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splashImg" translatesAutoresizingMaskIntoConstraints="NO" id="t2w-cR-fAh">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="511.33333333333331"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pqn-kw-s8d">
+                                        <rect key="frame" x="40" y="571.33333333333337" width="334" height="180.66666666666663"/>
+                                        <string key="text">Welcome to
+your personal health tracker</string>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" relation="lessThanOrEqual" secondItem="Pqn-kw-s8d" secondAttribute="bottom" constant="100" id="1sQ-GN-hhx"/>
+                                    <constraint firstItem="t2w-cR-fAh" firstAttribute="height" secondItem="cyH-m0-41s" secondAttribute="height" multiplier="0.6" id="8Xr-ab-WAa"/>
+                                    <constraint firstAttribute="trailing" secondItem="Pqn-kw-s8d" secondAttribute="trailing" constant="40" id="9vy-WZ-aMC"/>
+                                    <constraint firstItem="Pqn-kw-s8d" firstAttribute="top" secondItem="t2w-cR-fAh" secondAttribute="bottom" constant="60" id="Qfe-Xh-6p9"/>
+                                    <constraint firstItem="t2w-cR-fAh" firstAttribute="top" secondItem="cyH-m0-41s" secondAttribute="top" id="Z9r-ta-vkt"/>
+                                    <constraint firstAttribute="trailing" secondItem="t2w-cR-fAh" secondAttribute="trailing" id="ZqO-M4-aHe"/>
+                                    <constraint firstItem="Pqn-kw-s8d" firstAttribute="leading" secondItem="cyH-m0-41s" secondAttribute="leading" constant="40" id="gTw-uu-Yl4"/>
+                                    <constraint firstItem="t2w-cR-fAh" firstAttribute="leading" secondItem="cyH-m0-41s" secondAttribute="leading" id="sD7-xX-d26"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="tUb-Ll-EJB"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="cyH-m0-41s" secondAttribute="bottom" id="16X-nH-Y5Y"/>
+                            <constraint firstItem="tUb-Ll-EJB" firstAttribute="leading" secondItem="cyH-m0-41s" secondAttribute="leading" constant="11" id="Mrf-1V-CUa"/>
+                            <constraint firstAttribute="top" secondItem="cyH-m0-41s" secondAttribute="top" id="XJS-IE-xMk"/>
+                            <constraint firstItem="cyH-m0-41s" firstAttribute="trailing" secondItem="tUb-Ll-EJB" secondAttribute="trailing" constant="10" id="hsz-7X-2gt"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vkq-zO-FLw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="splashImg" width="375" height="434"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

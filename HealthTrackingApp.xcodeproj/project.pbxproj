@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18AB982A2D33FD940067809C /* HealthTrackingApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18AB98282D33FD930067809C /* HealthTrackingApp.xcdatamodeld */; };
+		18AB982C2D33FE530067809C /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AB982B2D33FE530067809C /* CoreDataStack.swift */; };
+		18AB982E2D33FE640067809C /* HealthMetricsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AB982D2D33FE640067809C /* HealthMetricsViewModel.swift */; };
+		18AB98302D33FE700067809C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AB982F2D33FE700067809C /* HomeViewController.swift */; };
+		18AB98322D33FE790067809C /* AddMetricViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AB98312D33FE790067809C /* AddMetricViewController.swift */; };
+		18AB98352D34021B0067809C /* HealthTracking+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AB98332D34021B0067809C /* HealthTracking+CoreDataClass.swift */; };
+		18AB98362D34021B0067809C /* HealthTracking+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AB98342D34021B0067809C /* HealthTracking+CoreDataProperties.swift */; };
+		18AB983A2D340AE30067809C /* LineChartWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AB98392D340AE30067809C /* LineChartWrapper.swift */; };
+		18AB983C2D340F930067809C /* LineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AB983B2D340F930067809C /* LineChartView.swift */; };
+		AF14E1512D342A1400630BC3 /* ViewMetricsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF14E1502D342A1400630BC3 /* ViewMetricsCell.xib */; };
+		AF14E1522D342A1400630BC3 /* ViewMetricsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF14E14F2D342A1400630BC3 /* ViewMetricsCell.swift */; };
+		AF4360B12D34535400224DC7 /* UITextfield+ Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4360B02D34535400224DC7 /* UITextfield+ Extension.swift */; };
+		AFA7409E2D32D1E900792E98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA7409D2D32D1E900792E98 /* AppDelegate.swift */; };
+		AFA740A02D32D1E900792E98 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA7409F2D32D1E900792E98 /* SceneDelegate.swift */; };
+		AFA740A52D32D1E900792E98 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = AFA740A42D32D1E900792E98 /* Base */; };
+		AFA740A72D32D1EB00792E98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFA740A62D32D1EB00792E98 /* Assets.xcassets */; };
+		AFA740AA2D32D1EB00792E98 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = AFA740A92D32D1EB00792E98 /* Base */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18AB98292D33FD930067809C /* HealthTrackingApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HealthTrackingApp.xcdatamodel; sourceTree = "<group>"; };
+		18AB982B2D33FE530067809C /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		18AB982D2D33FE640067809C /* HealthMetricsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthMetricsViewModel.swift; sourceTree = "<group>"; };
+		18AB982F2D33FE700067809C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		18AB98312D33FE790067809C /* AddMetricViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMetricViewController.swift; sourceTree = "<group>"; };
+		18AB98332D34021B0067809C /* HealthTracking+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HealthTracking+CoreDataClass.swift"; sourceTree = "<group>"; };
+		18AB98342D34021B0067809C /* HealthTracking+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HealthTracking+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		18AB98392D340AE30067809C /* LineChartWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartWrapper.swift; sourceTree = "<group>"; };
+		18AB983B2D340F930067809C /* LineChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartView.swift; sourceTree = "<group>"; };
+		AF14E14F2D342A1400630BC3 /* ViewMetricsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewMetricsCell.swift; sourceTree = "<group>"; };
+		AF14E1502D342A1400630BC3 /* ViewMetricsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewMetricsCell.xib; sourceTree = "<group>"; };
+		AF4360B02D34535400224DC7 /* UITextfield+ Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextfield+ Extension.swift"; sourceTree = "<group>"; };
+		AFA7409A2D32D1E900792E98 /* HealthTrackingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthTrackingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFA7409D2D32D1E900792E98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AFA7409F2D32D1E900792E98 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AFA740A42D32D1E900792E98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AFA740A62D32D1EB00792E98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFA740A92D32D1EB00792E98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AFA740AB2D32D1EB00792E98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFA740972D32D1E900792E98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18AB983D2D3446370067809C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AFA740A62D32D1EB00792E98 /* Assets.xcassets */,
+				AFA740A82D32D1EB00792E98 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		18AB983E2D34464D0067809C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				18AB982D2D33FE640067809C /* HealthMetricsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		18AB983F2D3446890067809C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				18AB98422D3446EB0067809C /* LineChartView */,
+				18AB98402D3446A70067809C /* Xib */,
+				18AB982F2D33FE700067809C /* HomeViewController.swift */,
+				18AB98312D33FE790067809C /* AddMetricViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		18AB98402D3446A70067809C /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				AF14E14F2D342A1400630BC3 /* ViewMetricsCell.swift */,
+				AF14E1502D342A1400630BC3 /* ViewMetricsCell.xib */,
+			);
+			path = Xib;
+			sourceTree = "<group>";
+		};
+		18AB98412D3446C40067809C /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				18AB982B2D33FE530067809C /* CoreDataStack.swift */,
+				18AB98332D34021B0067809C /* HealthTracking+CoreDataClass.swift */,
+				18AB98342D34021B0067809C /* HealthTracking+CoreDataProperties.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		18AB98422D3446EB0067809C /* LineChartView */ = {
+			isa = PBXGroup;
+			children = (
+				18AB983B2D340F930067809C /* LineChartView.swift */,
+				18AB98392D340AE30067809C /* LineChartWrapper.swift */,
+			);
+			path = LineChartView;
+			sourceTree = "<group>";
+		};
+		AF4360AF2D34531F00224DC7 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				AF4360B02D34535400224DC7 /* UITextfield+ Extension.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		AFA740912D32D1E900792E98 = {
+			isa = PBXGroup;
+			children = (
+				AFA7409C2D32D1E900792E98 /* HealthTrackingApp */,
+				AFA7409B2D32D1E900792E98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFA7409B2D32D1E900792E98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFA7409A2D32D1E900792E98 /* HealthTrackingApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFA7409C2D32D1E900792E98 /* HealthTrackingApp */ = {
+			isa = PBXGroup;
+			children = (
+				AF4360AF2D34531F00224DC7 /* Helper */,
+				AFA7409F2D32D1E900792E98 /* SceneDelegate.swift */,
+				AFA7409D2D32D1E900792E98 /* AppDelegate.swift */,
+				18AB98412D3446C40067809C /* Persistence */,
+				18AB983F2D3446890067809C /* Views */,
+				18AB983E2D34464D0067809C /* ViewModels */,
+				18AB983D2D3446370067809C /* Resources */,
+				AFA740A32D32D1E900792E98 /* Main.storyboard */,
+				AFA740AB2D32D1EB00792E98 /* Info.plist */,
+				18AB98282D33FD930067809C /* HealthTrackingApp.xcdatamodeld */,
+			);
+			path = HealthTrackingApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFA740992D32D1E900792E98 /* HealthTrackingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFA740AE2D32D1EB00792E98 /* Build configuration list for PBXNativeTarget "HealthTrackingApp" */;
+			buildPhases = (
+				AFA740962D32D1E900792E98 /* Sources */,
+				AFA740972D32D1E900792E98 /* Frameworks */,
+				AFA740982D32D1E900792E98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HealthTrackingApp;
+			productName = HealthTrackingApp;
+			productReference = AFA7409A2D32D1E900792E98 /* HealthTrackingApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFA740922D32D1E900792E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					AFA740992D32D1E900792E98 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = AFA740952D32D1E900792E98 /* Build configuration list for PBXProject "HealthTrackingApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFA740912D32D1E900792E98;
+			productRefGroup = AFA7409B2D32D1E900792E98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFA740992D32D1E900792E98 /* HealthTrackingApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFA740982D32D1E900792E98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFA740A72D32D1EB00792E98 /* Assets.xcassets in Resources */,
+				AFA740AA2D32D1EB00792E98 /* Base in Resources */,
+				AF14E1512D342A1400630BC3 /* ViewMetricsCell.xib in Resources */,
+				AFA740A52D32D1E900792E98 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFA740962D32D1E900792E98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF14E1522D342A1400630BC3 /* ViewMetricsCell.swift in Sources */,
+				18AB982E2D33FE640067809C /* HealthMetricsViewModel.swift in Sources */,
+				18AB982A2D33FD940067809C /* HealthTrackingApp.xcdatamodeld in Sources */,
+				AF4360B12D34535400224DC7 /* UITextfield+ Extension.swift in Sources */,
+				18AB983C2D340F930067809C /* LineChartView.swift in Sources */,
+				18AB98322D33FE790067809C /* AddMetricViewController.swift in Sources */,
+				18AB98302D33FE700067809C /* HomeViewController.swift in Sources */,
+				AFA7409E2D32D1E900792E98 /* AppDelegate.swift in Sources */,
+				18AB983A2D340AE30067809C /* LineChartWrapper.swift in Sources */,
+				AFA740A02D32D1E900792E98 /* SceneDelegate.swift in Sources */,
+				18AB98352D34021B0067809C /* HealthTracking+CoreDataClass.swift in Sources */,
+				18AB98362D34021B0067809C /* HealthTracking+CoreDataProperties.swift in Sources */,
+				18AB982C2D33FE530067809C /* CoreDataStack.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AFA740A32D32D1E900792E98 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFA740A42D32D1E900792E98 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AFA740A82D32D1EB00792E98 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFA740A92D32D1EB00792E98 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFA740AC2D32D1EB00792E98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AFA740AD2D32D1EB00792E98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFA740AF2D32D1EB00792E98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HealthTrackingApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HealthTrackingApp.HealthTrackingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFA740B02D32D1EB00792E98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HealthTrackingApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HealthTrackingApp.HealthTrackingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFA740952D32D1E900792E98 /* Build configuration list for PBXProject "HealthTrackingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFA740AC2D32D1EB00792E98 /* Debug */,
+				AFA740AD2D32D1EB00792E98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFA740AE2D32D1EB00792E98 /* Build configuration list for PBXNativeTarget "HealthTrackingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFA740AF2D32D1EB00792E98 /* Debug */,
+				AFA740B02D32D1EB00792E98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		18AB98282D33FD930067809C /* HealthTrackingApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18AB98292D33FD930067809C /* HealthTrackingApp.xcdatamodel */,
+			);
+			currentVersion = 18AB98292D33FD930067809C /* HealthTrackingApp.xcdatamodel */;
+			path = HealthTrackingApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AFA740922D32D1E900792E98 /* Project object */;
+}

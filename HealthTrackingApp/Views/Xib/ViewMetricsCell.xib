@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="ViewMetricsCell" id="KGk-i7-Jjw" customClass="ViewMetricsCell" customModule="HealthTrackingApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3fN-j7-vBi">
+                        <rect key="frame" x="10" y="9.6666666666666643" width="25" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="25" id="fpg-yv-Ja4"/>
+                            <constraint firstAttribute="height" constant="25" id="xz6-8k-MMo"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s1c-UN-5le">
+                        <rect key="frame" x="45" y="11.666666666666664" width="265" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="s1c-UN-5le" secondAttribute="trailing" constant="10" id="6nC-hI-fmZ"/>
+                    <constraint firstItem="3fN-j7-vBi" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="AgA-AD-eKL"/>
+                    <constraint firstItem="3fN-j7-vBi" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="aw3-4D-qGb"/>
+                    <constraint firstItem="s1c-UN-5le" firstAttribute="leading" secondItem="3fN-j7-vBi" secondAttribute="trailing" constant="10" id="ftJ-M4-V6h"/>
+                    <constraint firstItem="s1c-UN-5le" firstAttribute="centerY" secondItem="3fN-j7-vBi" secondAttribute="centerY" id="htL-QP-2SY"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="metricImageView" destination="3fN-j7-vBi" id="cVG-fa-AEE"/>
+                <outlet property="metricName" destination="s1c-UN-5le" id="70u-mt-iLo"/>
+            </connections>
+            <point key="canvasLocation" x="-66" y="20"/>
+        </tableViewCell>
+    </objects>
+</document>
